@@ -29,7 +29,7 @@ public class SpotifyTraktorSync {
 //            }
 //        });
 
-        Credentials.ACCESS_TOKEN = "BQCvAq4kryY6ARFPafYotQk4sBqCNi2TkPeNopoek04AnYivLsRrO2s-Oj95UTK4SICC9D0PzRae6MKOrk2L4LMJXIdAf0xb8jSyq2CHIW5AFjONUniY891BMAp1VrNR8QeacGIHU0xHqHAOrazjqNc5NwOkaeAgjJvnrnF_M-9jT96jU0U";
+        Credentials.ACCESS_TOKEN = "";
         Credentials.USER_ID = Spotify.me().get("id").getAsString();
         JsonArray playlists = Spotify.getUsersPlaylist(Credentials.USER_ID).get("items").getAsJsonArray();
 
